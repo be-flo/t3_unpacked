@@ -1,0 +1,24 @@
+{
+  "name": "be-flo/t3-unpacked",
+  "type": "typo3-cms-extension",
+  "description": "TYPO3 Extension to extract zip files in the file list",
+  "homepage": "https://t3tech.de",
+  "license": ["GPL-2.0-or-later"],
+  "keywords": ["TYPO3 CMS"],
+  "require": {
+    "typo3/cms-core": "^10.4 || ^11.0"
+  },
+  "replace": {
+    "be-flo/t3-unpacked": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "BeFlo\\T3Unpacked\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "t3_unpacked"
+    }
+  }
+}
